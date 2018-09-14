@@ -1,5 +1,3 @@
-Welcome file
-Welcome file
  ![Dependencies](https://img.shields.io/hackage-deps/v/lens.svg) ![Build](https://img.shields.io/badge/build-unknown-lightgrey.svg) ![Coverage](https://img.shields.io/badge/coverage-not%20found-lightgrey.svg) ![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)  ![Contributors](https://img.shields.io/badge/contributors-4-brightgreen.svg) ![LICENCE](https://img.shields.io/aur/license/yaourt.svg)
 
 
