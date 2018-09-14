@@ -10,7 +10,7 @@ We value supportive and constructive dialogue in the pursuit of great code and c
 
 ## Preview
 
-[![git-secret terminal preview](https://asciinema.org/a/41811.png)](https://asciinema.org/a/41811?autoplay=1)
+[![git-secret terminal preview](https://asciinema.org/a/41811.png)](https://asciinema.org/a/41811?autoplay=1) [![Join the chat at https://gitter.im/collate-for-me/Lobby](https://badges.gitter.im/collate-for-me/Lobby.svg)](https://gitter.im/collate-for-me/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Installation
 
