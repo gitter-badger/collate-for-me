@@ -1,4 +1,5 @@
-![Join the chat at https://gitter.im/collate-for-me/Lobby](https://badges.gitter.im/collate-for-me/Lobby.svg) ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-green.svg) ![Build](https://img.shields.io/badge/build-unknown-lightgrey.svg) ![Coverage](https://img.shields.io/badge/coverage-not%20found-lightgrey.svg) ![Contributors](https://img.shields.io/badge/contributors-4-brightgreen.svg) ![LICENCE](https://img.shields.io/aur/license/yaourt.svg)
+
+![Join the chat at https://gitter.im/collate-for-me/Lobby][gitter] ![Dependencies][dependencies] ![Build][build] ![Coverage][coverage] ![Contributors][contributors] ![LICENCE][licence]
 
 <h1 align="center" style="border-bottom: none;">collate-for-me</h1> 
 <h3 align="center">👩‍💻 Exclusive content consumption 👨‍💻</h3>
@@ -11,7 +12,7 @@ We value supportive and constructive dialogue in the pursuit of great code and c
 
 ## Preview
 
-[![git-secret terminal preview](https://asciinema.org/a/41811.png)](https://asciinema.org/a/41811?autoplay=1) 
+[![git-secret terminal preview][preview]][preview-vid]
 
 ## Table of Contents
 
@@ -31,7 +32,7 @@ We value supportive and constructive dialogue in the pursuit of great code and c
     * [Style guide](#)
     * [Husky hooks](#)
 * [Additional docs](#)
-* [Core Team Members](#)
+* [Leads](#)
 * [License](#)
 
 
@@ -53,9 +54,9 @@ We value supportive and constructive dialogue in the pursuit of great code and c
 
 ## Product Roadmap
 
-Our new product roadmap can be found [here](https://github.com/mehtankush/collate-for-me/projects). Many notes need to be converted to issues but this should provide an overview of features we plan to work on, as well as features we are considering.
+Our new product roadmap can be found [here][projects]. Many notes need to be converted to issues but this should provide an overview of features we plan to work on, as well as features we are considering.
 
-Core team members will move issues along the project board as they progress.
+Leads will move issues along the project board as they progress.
 
 * Needs triage: features up for discussion
 * Needs Owners: free for contributors to work on, please communicate with the team
@@ -65,18 +66,40 @@ Core team members will move issues along the project board as they progress.
 
 
 
-## Core Team Members
+## Leads
 
-| [<img src="https://github.com/mehtankush.png" width="100px;"/><br /><sub><b>Ankush Mehta</b></sub>](https://ankushmehta.com)<br /> 💻 📖 | [<img src="https://github.com/chandakmayank.png" width="100px;"/><br /><sub><b>Mayank Chandak</b></sub>](https://github.com/chandakmayank)<br /> 💻 📖 | [<img src="https://github.com/vibhanarayan.png" width="100px;"/><br /><sub><b>Vibha Narayan</b></sub>](https://github.com/vibhanarayan)<br /> 💻 📖 |
+| [<img src="https://github.com/mehtankush.png" width="100px;"/><br /><sub><b>Ankush Mehta</b></sub>][ankushmehta]<br /> 💻 📖 | [<img src="https://github.com/chandakmayank.png" width="100px;"/><br /><sub><b>Mayank Chandak</b></sub>][chandakmayank]<br /> 💻 📖 | [<img src="https://github.com/vibhanarayan.png" width="100px;"/><br /><sub><b>Vibha Narayan</b></sub>][vibhanarayan]<br /> 💻 📖 |
 | :---: | :---: | :---: | 
 
 
 ## License
 
-[GPLv3](https://www.gnu.org/licenses/rms-why-gplv3.html). See [LICENSE.md](https://github.com/mehtankush/collate-for-me/blob/master/LICENSE) for details.
+[GPLv3][gplv3]. See [LICENSE.md][licence-file] for details.
 
 <br/>
 
 <p align="center">
   <strong>Happy Coding</strong> ❤️
 </p>
+
+<!-- Shields -->
+[gitter]: https://badges.gitter.im/collate-for-me/Lobby.svg
+[dependencies]: https://img.shields.io/badge/dependencies-up%20to%20date-green.svg
+[build]: https://img.shields.io/badge/build-unknown-lightgrey.svg
+[coverage]: https://img.shields.io/badge/coverage-not%20found-lightgrey.svg
+[contributors]: https://img.shields.io/badge/contributors-4-brightgreen.svg
+[licence]: https://img.shields.io/aur/license/yaourt.svg
+
+<!-- Links -->
+[preview]: https://asciinema.org/a/41811.png
+[preview-vid]: (https://asciinema.org/a/41811?autoplay=1) 
+[projects]: https://github.com/mehtankush/collate-for-me/projects
+
+<!-- Contributors -->
+[ankushmehta]: https://ankushmehta.com
+[chandakmayank]: https://github.com/chandakmayank
+[vibhanarayan]: https://github.com/vibhanarayan
+
+<!-- Licence -->
+[gplv3]: https://www.gnu.org/licenses/rms-why-gplv3.html
+[licence-file]: https://github.com/mehtankush/collate-for-me/blob/master/LICENSE
