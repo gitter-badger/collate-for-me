@@ -68,7 +68,7 @@ Core team members will move issues along the project board as they progress.
 ## Core Team Members
 
 | [<img src="https://github.com/mehtankush.png" width="100px;"/><br /><sub><b>Ankush Mehta</b></sub>](https://ankushmehta.com)<br /> 💻 📖 | [<img src="https://github.com/chandakmayank.png" width="100px;"/><br /><sub><b>Mayank Chandak</b></sub>](https://github.com/chandakmayank)<br /> 💻 📖 | [<img src="https://github.com/vibhanarayan.png" width="100px;"/><br /><sub><b>Vibha Narayan</b></sub>](https://github.com/vibhanarayan)<br /> 💻 📖 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | 
 
 
 ## License
