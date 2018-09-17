@@ -11,7 +11,7 @@
 
 ### Application Goals
 - Efficient content consumption of www
-- Content is not manipulated for profits and based on user's choice
+- Content is based on user's choice and is not manipulated for profits
 - No brainer installation and workflows
 
 
