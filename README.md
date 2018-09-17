@@ -37,7 +37,7 @@ We value supportive and constructive dialogue in the pursuit of great code and c
     * [Style guide](#)
     * [Husky hooks](#)
 * [Additional docs](#)
-* [Leads](#)
+* [Contributors](#)
 * [License](#)
 
 
@@ -61,7 +61,7 @@ We value supportive and constructive dialogue in the pursuit of great code and c
 
 Our new product roadmap can be found [here][projects]. Many notes need to be converted to issues but this should provide an overview of features we plan to work on, as well as features we are considering.
 
-Leads will move issues along the project board as they progress.
+Contributors will move issues along the project board as they progress.
 
 * Needs triage: features up for discussion
 * Needs Owners: free for contributors to work on, please communicate with the team
@@ -71,10 +71,10 @@ Leads will move issues along the project board as they progress.
 
 
 
-## Leads
+## Contributors
 
-| [<img src="https://github.com/mehtankush.png" width="100px;"/><br /><sub><b>Ankush Mehta</b></sub>][ankushmehta]<br /> 💻 📖 | [<img src="https://github.com/chandakmayank.png" width="100px;"/><br /><sub><b>Mayank Chandak</b></sub>][chandakmayank]<br /> 💻 📖 | [<img src="https://github.com/vibhanarayan.png" width="100px;"/><br /><sub><b>Vibha Narayan</b></sub>][vibhanarayan]<br /> 💻 📖 |
-| :---: | :---: | :---: | 
+| [<img src="https://github.com/mehtankush.png" width="100px;"/><br /><sub><b>Ankush Mehta</b></sub>][ankushmehta]<br /> 💻 📖 | [<img src="https://github.com/chandakmayank.png" width="100px;"/><br /><sub><b>Mayank Chandak</b></sub>][chandakmayank]<br /> 💻 🔧 📦 | [<img src="https://github.com/vibhanarayan.png" width="100px;"/><br /><sub><b>Vibha Narayan</b></sub>][vibhanarayan]<br /> 💻 📖 | [<img src="https://github.com/sakshy.png" width="100px;"/><br /><sub><b>Sakshi Bhardwaj</b></sub>][sakshy]<br /> 🎨 📋 |
+| :---: | :---: | :---: | :---: | 
 
 
 ## License
@@ -104,6 +104,7 @@ Leads will move issues along the project board as they progress.
 [ankushmehta]: https://ankushmehta.com
 [chandakmayank]: https://github.com/chandakmayank
 [vibhanarayan]: https://github.com/vibhanarayan
+[sakshy]: https://github.com/sakshy
 
 <!-- Licence -->
 [gplv3]: https://www.gnu.org/licenses/rms-why-gplv3.html
