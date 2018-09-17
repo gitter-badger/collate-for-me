@@ -5,13 +5,12 @@
 <h3 align="center">Exclusive content consumption 👩‍💻 👨‍💻</h3>
 
 
-`collate-for-me` is a platform where humans _(and bots)_  from all branches of software development can join hands to build a dashboard of your  choice, served on your computer and is not influenced by the _marketting algorithms_ of big tech corporates. 
+`collate-for-me` is a platform where humans _(and bots)_  from all branches of software development join hands to build a dashboard of your  choice, served on your computer and is not influenced by the _marketting algorithms_ of big tech corporates. 
 
 ### Application Goals
-- Efficient Content Consumption of world-wide-web (www)
-- Content should be based on user's choice and not manipulated for profits
+- Efficient content consumption of www
+- Content is not manipulated for profits and based on user's choice
 - No brainer installation and workflows
-- True replacement of multiple services with `Subscribe` & `Explore`
 
 
 We value supportive and constructive dialogue in the pursuit of great code and career growth for all members. The ecosystem spans from beginner to advanced developers, and **all are welcome** to find their place in the community.
