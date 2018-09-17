@@ -1,8 +1,12 @@
 
+
 ![Join the chat at https://gitter.im/collate-for-me/Lobby][gitter] ![Dependencies][dependencies] ![Build][build] ![Coverage][coverage] ![Contributors][contributors] ![LICENCE][licence]
 
-<h1 align="center" style="border-bottom: none;">collate-for-me</h1> 
-<h3 align="center">Exclusive content consumption 👩‍💻 👨‍💻</h3>
+<p align="center">
+ <img src="https://media.giphy.com/media/3oKIPqXWNJswXf1InS/giphy.gif" width="500" height="400"/>
+</p>
+<h1 align="center" style="border-bottom: none;">collate-for-me 👩‍💻👨‍💻</h1> 
+<h3 align="center">Content Consumption Simplified</h3>
 
 
 `collate-for-me` is a platform where humans _(and bots)_  from all branches of software development join hands to build a dashboard of your  choice, served on your computer and is not influenced by the _marketting algorithms_ of big tech corporates. 
