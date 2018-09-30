@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+
+    <!-- For Vue JS (using production version) -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+    <!-- For socket io client -->
+    <script type="text/javascript">
+      var socket = require('socket.io-client')('http://192.168.10.187:5000');
+    </script>
+  </head>
+
+  <body>
+    <h1>Hello World!</h1>
+    <h1>This is an Example of Electron</h1>
+    <h3 id="app">
+      {{ message }}
+    </h3>
+    <h3 id="app2">
+      {{ message }}
+    </h3>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js');
+
+      //For Vue js
+      var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello Vue!'
+        }
+      });
+
+      var app = new Vue({
+        el: '#app2',
+        data: {
+          message: 'Hai Vue 2'
+        }
+      });
+
+      //Subscribe an event
+      socket.on('data1', function (data) {
+          console.log(data.toString());
+      });
+    
+      //For emit message every 3 seconds
+      function aaa_(){
+        socket.emit("aaa", "Hello");
+        setTimeout(aaa_, 3000);
+      }
+      aaa_();
+
+    </script>
+  </body>
+</html>

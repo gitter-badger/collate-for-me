@@ -48,13 +48,22 @@ We value supportive and constructive dialogue in the pursuit of great code and c
 
 `collate-for-me` relies on several external packages:
 
-- `bash` since `3.2.57` (it is hard to tell the correct `patch` release)
-- `git` since `1.8.3.1`
-- `gpg` since `gnupg 1.4` to `gnupg 2.X`
-- `sha256sum` since `8.21`
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/download/) 
 
 ### Installation
-`collate-for-me` supports `brew`, just type: `brew install collate-for-me`
+Clone and run this repository
+
+```bash
+# Clone this repository
+git clone https://github.com/mehtankush/collate-for-me.git
+
+# Go into the repository
+cd collate4me/client
+
+# Install dependencies & Run the app
+npm install && npm start
+```
 
 ### Starting the application
 
