@@ -1,17 +1,18 @@
-
 ![Join the chat at https://gitter.im/collate-for-me/Lobby][gitter] ![Dependencies][dependencies] ![Build][build] ![Coverage][coverage] ![Contributors][contributors] ![LICENCE][licence]
 
-<h1 align="center" style="border-bottom: none;">collate-for-me</h1> 
-<h3 align="center">Exclusive content consumption 👩‍💻 👨‍💻</h3>
+<h1 align="center" style="border-bottom: none;">collate-for-me 👩‍💻👨‍💻</h1> 
+<h3 align="center">Content Consumption Simplified</h3>
 
+<p align="center">
+ <img src="https://media.giphy.com/media/3oKIPqXWNJswXf1InS/giphy.gif" width="500" height="400"/>
+</p>
 
-`collate-for-me` is a platform where humans _(and bots)_  from all branches of software development can join hands to build a dashboard of your  choice, served on your computer and is not influenced by the _marketting algorithms_ of big tech corporates. 
+`collate-for-me` is a platform where humans _(and bots)_  from all branches of software development join hands to build a dashboard of your  choice, served on your computer and is not influenced by the _marketting algorithms_ of big tech corporates. 
 
 ### Application Goals
-- Efficient Content Consumption of world-wide-web (www)
-- Content should be based on user's choice and not manipulated for profits
+- Efficient content consumption of www
+- Content is based on user's choice and is not manipulated for profits
 - No brainer installation and workflows
-- True replacement of multiple services with `Subscribe` & `Explore`
 
 
 We value supportive and constructive dialogue in the pursuit of great code and career growth for all members. The ecosystem spans from beginner to advanced developers, and **all are welcome** to find their place in the community.
@@ -38,7 +39,7 @@ We value supportive and constructive dialogue in the pursuit of great code and c
     * [Style guide](#)
     * [Husky hooks](#)
 * [Additional docs](#)
-* [Leads](#)
+* [Contributors](#)
 * [License](#)
 
 
@@ -71,7 +72,7 @@ npm install && npm start
 
 Our new product roadmap can be found [here][projects]. Many notes need to be converted to issues but this should provide an overview of features we plan to work on, as well as features we are considering.
 
-Leads will move issues along the project board as they progress.
+Contributors will move issues along the project board as they progress.
 
 * Needs triage: features up for discussion
 * Needs Owners: free for contributors to work on, please communicate with the team
@@ -81,10 +82,10 @@ Leads will move issues along the project board as they progress.
 
 
 
-## Leads
+## Contributors
 
-| [<img src="https://github.com/mehtankush.png" width="100px;"/><br /><sub><b>Ankush Mehta</b></sub>][ankushmehta]<br /> 💻 📖 | [<img src="https://github.com/chandakmayank.png" width="100px;"/><br /><sub><b>Mayank Chandak</b></sub>][chandakmayank]<br /> 💻 📖 | [<img src="https://github.com/vibhanarayan.png" width="100px;"/><br /><sub><b>Vibha Narayan</b></sub>][vibhanarayan]<br /> 💻 📖 |
-| :---: | :---: | :---: | 
+| [<img src="https://github.com/mehtankush.png" width="100px;"/><br /><sub><b>Ankush Mehta</b></sub>][ankushmehta]<br /> 💻 📖 | [<img src="https://github.com/chandakmayank.png" width="100px;"/><br /><sub><b>Mayank Chandak</b></sub>][chandakmayank]<br /> 💻 🔧 📦 | [<img src="https://github.com/vibhanarayan.png" width="100px;"/><br /><sub><b>Vibha Narayan</b></sub>][vibhanarayan]<br /> 💻 📖 | [<img src="https://github.com/SakshyBhardwaj.png" width="100px;"/><br /><sub><b>Sakshi Bhardwaj</b></sub>][sakshybhardwaj]<br /> 🎨 📋 |
+| :---: | :---: | :---: | :---: | 
 
 
 ## License
@@ -114,6 +115,7 @@ Leads will move issues along the project board as they progress.
 [ankushmehta]: https://ankushmehta.com
 [chandakmayank]: https://github.com/chandakmayank
 [vibhanarayan]: https://github.com/vibhanarayan
+[sakshybhardwaj]: https://github.com/SakshyBhardwaj
 
 <!-- Licence -->
 [gplv3]: https://www.gnu.org/licenses/rms-why-gplv3.html
