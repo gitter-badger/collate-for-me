@@ -1,12 +1,12 @@
 {
-  "name": "electron-vue-ws",
+  "name": "collate-for-me",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-vue-ws",
+  "repository": "https://github.com/electron/collate-for-me",
   "keywords": [
     "Electron",
     "quick",
