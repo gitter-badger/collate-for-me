@@ -1,37 +1,31 @@
 //Server Side
-var app = require('http').createServer(handler);
+var app = require('http').createServer();
 var io = require('socket.io')(app);
 var url = require('url');
 var fs = require('fs');
 
+var Datastore = require('nedb');
+var users = new Datastore({
+    filename: 'database/users.db',
+    autoload: true
+});
+
 app.listen(5000);
 
-function handler (req, res) { //create server
-  fs.readFile(__dirname + '/public/index.html', function(err, data) { //read file index.html in public folder
-    if (err) {
-      res.writeHead(404, {'Content-Type': 'text/html'}); //display 404 on error
-      return res.end("404 Not Found");
-    }
-    res.writeHead(200, {'Content-Type': 'text/html'}); //write HTML
-    res.write(data); //write data from index.html
-    return res.end();
-  });
-}
-
 // Web Socket Connection
-io.sockets.on('connection', function (socket) {
-	//console.log("connect");
-  // If we recieved a command from a client to start watering lets do so
-  socket.on('aaa', function(data) {
-      console.log(data.toString());
+io.sockets.on('connection', function(socket) {
+    // If we recieved a command from a client, print in console 
+    socket.on('custom_request', function(data) {
+        console.log('request received: ', data);
 
-      //delay = data["duration"];
+        var info = {
+            request: data,
+            name: 'Scott',
+            twitter: '@ScottWRobinson'
+        };
 
-      // Set a timer for when we should stop watering
-      //setTimeout(function(){
-          socket.emit("data1","Hello too");
-      //}, 1000);
+        users.insert(info, function(err, doc) {});
 
-  });
-  
+        socket.emit('success: request', 'response');
+    });
 });
