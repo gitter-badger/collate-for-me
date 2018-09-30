@@ -65,8 +65,11 @@ cd collate-for-me
 # Install dependencies & Run the app
 npm install && npm start
 
-# Run server in a new window
+# Run the node server
 node server.js
+
+# Run the electron app (in a new teminal window)
+npm start
 ```
 
 ### Starting the application
