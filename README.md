@@ -60,10 +60,13 @@ Clone and run this repository
 git clone https://github.com/mehtankush/collate-for-me.git
 
 # Go into the repository
-cd collate4me/client
+cd collate-for-me
 
 # Install dependencies & Run the app
 npm install && npm start
+
+# Run server in a new window
+node server.js
 ```
 
 ### Starting the application
