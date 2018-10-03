@@ -53,7 +53,6 @@ We value supportive and constructive dialogue in the pursuit of great code and c
 - [Node.js](https://nodejs.org/en/download/) 
 
 ### Installation
-Clone and run this repository
 
 ```bash
 # Clone this repository
@@ -63,8 +62,12 @@ git clone https://github.com/mehtankush/collate-for-me.git
 cd collate-for-me
 
 # Install dependencies & Run the app
-npm install && npm start
+npm install
+```
 
+### Starting the application
+
+```bash
 # Run the node server
 node server.js
 
@@ -72,7 +75,6 @@ node server.js
 npm start
 ```
 
-### Starting the application
 
 ## Product Roadmap
 
