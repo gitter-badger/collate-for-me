@@ -123,4 +123,4 @@ Contributors will move issues along the project board as they progress.
 
 <!-- Licence -->
 [gplv3]: https://www.gnu.org/licenses/rms-why-gplv3.html
-[licence-file]: https://github.com/mehtankush/collate-for-me/blob/master/.github/LICENSE.md
+[licence-file]: https://github.com/mehtankush/collate-for-me/blob/master/LICENSE
