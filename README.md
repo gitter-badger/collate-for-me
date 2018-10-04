@@ -17,37 +17,34 @@
 
 We value supportive and constructive dialogue in the pursuit of great code and career growth for all members. The ecosystem spans from beginner to advanced developers, and **all are welcome** to find their place in the community.
 
-## Preview
+[//]: # (## Preview)
+[//]: # ([![git-secret terminal preview][preview]][preview-vid])
 
-[![git-secret terminal preview][preview]][preview-vid]
-
-## Table of Contents
-
-* [Getting Started](#)
-  * [Prerequisites](#)
-  * [Installation](#)
-  * [Starting the application](#)
-* [Product Roadmap](#)
-* [Contributing](#)
-  * [Where to contribute](#)
-  * [How to contribute](#)
-  * [Contribution guideline](#)
-  * [How to get help](#)
-* [Codebase](#)
-  * [The stack](#)
-  * [Engineering standards](#)
-    * [Style guide](#)
-    * [Husky hooks](#)
-* [Additional docs](#)
-* [Contributors](#)
-* [License](#)
+[//]: # (## Table of Contents)
+[//]: # ()
+[//]: # (* [Getting Started](#)
+[//]: # (  * [Prerequisites](#)
+[//]: # (  * [Installation](#)
+[//]: # (  * [Starting the application](#)
+[//]: # (* [Product Roadmap](#)
+[//]: # (* [Contributing](#)
+[//]: # (  * [Where to contribute](#)
+[//]: # (  * [How to contribute](#)
+[//]: # (  * [Contribution guideline](#)
+[//]: # (  * [How to get help](#)
+[//]: # (* [Codebase](#)
+[//]: # (  * [The stack](#)
+[//]: # (  * [Engineering standards](#)
+[//]: # (    * [Style guide](#)
+[//]: # (    * [Husky hooks](#)
+[//]: # (* [Additional docs](#)
+[//]: # (* [Contributors](#)
+[//]: # (* [License](#)
 
 
 ## Getting Started
 
 ### Prerequisites
-
-`collate-for-me` relies on several external packages:
 
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/en/download/) 
