@@ -33,6 +33,7 @@ Did you want to fix a bug? To keep a great coordination between collaborators, y
 3. [Create a new branch][create-branch]. The name of the branch must be explicit and being prefixed by the related ticket id. For instance, `14_contributing_file` to fix [ticket #14][ticket-14].
 4. Make your changes to your fork and [send a pull request][pull-request] on the **dev branch**.
 
+[//]: # (If you have to write code, please follow [our coding style recommendations](https://freshrss.github.io/FreshRSS/en/developers/01_First_steps.html)
 
 **Tip:** if you are searching for bugs easy to fix, have a look at the « [Good first issue][good-first-issue] » and/or « [Help wanted][help-wanted] » ticket labels.
 
@@ -46,7 +47,7 @@ If your idea is nice, we’ll have a look at it.
 
 If you want to improve internationalization, please open a new ticket first and follow indications from « Fix a bug » section.
 
-Translations are present in the subdirectories of `./app/i18n/`.
+[//]: # (Translations are present in the subdirectories of `./app/i18n/`)
 
 We are working on a better way to handle internationalization but don’t hesitate to suggest any idea!
 
