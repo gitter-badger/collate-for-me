@@ -95,7 +95,7 @@ Contributors will move issues along the project board as they progress.
 
 ## License
 
-[GPLv3][gplv3]. See [LICENSE.md][licence-file] for details.
+[GPLv3][gplv3]. See [LICENSE][licence-file] for details.
 
 <br/>
 
