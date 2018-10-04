@@ -92,8 +92,8 @@ Contributors will move issues along the project board as they progress.
 
 ## Contributors
 
-| [<img src="https://github.com/mehtankush.png" width="100px;"/><br /><sub><b>Ankush Mehta</b></sub>][ankushmehta]<br /> 💻 📖 | [<img src="https://github.com/chandakmayank.png" width="100px;"/><br /><sub><b>Mayank Chandak</b></sub>][chandakmayank]<br /> 💻 🔧 📦 | [<img src="https://github.com/vibhanarayan.png" width="100px;"/><br /><sub><b>Vibha Narayan</b></sub>][vibhanarayan]<br /> 💻 📖 | [<img src="https://github.com/SakshyBhardwaj.png" width="100px;"/><br /><sub><b>Sakshi Bhardwaj</b></sub>][sakshybhardwaj]<br /> 🎨 📋 |
-| :---: | :---: | :---: | :---: | 
+| [<img src="https://github.com/mehtankush.png" width="100px;"/><br /><sub><b>Ankush Mehta</b></sub>][ankushmehta]<br /> 💻 📖 | [<img src="https://github.com/chandakmayank.png" width="100px;"/><br /><sub><b>Mayank Chandak</b></sub>][chandakmayank]<br /> 💻 🔧 📦 | [<img src="https://github.com/SakshyBhardwaj.png" width="100px;"/><br /><sub><b>Sakshi Bhardwaj</b></sub>][sakshybhardwaj]<br /> 🎨 📋 |
+| :---: | :---: | :---: |
 
 
 ## License
@@ -122,7 +122,6 @@ Contributors will move issues along the project board as they progress.
 <!-- Contributors -->
 [ankushmehta]: https://ankushmehta.com
 [chandakmayank]: https://github.com/chandakmayank
-[vibhanarayan]: https://github.com/vibhanarayan
 [sakshybhardwaj]: https://github.com/SakshyBhardwaj
 
 <!-- Licence -->
