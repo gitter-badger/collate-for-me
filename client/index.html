@@ -3,51 +3,50 @@
     <head>
         <meta charset="utf-8">
             <title>
-                Hello World!
+                Collate
             </title>
             <!-- For Vue JS (using production version) -->
-            <script src="../node_modules/vue/dist/vue.min.js">
+            <script src="../node_modules/vue/dist/vue.js">
             </script>
-            <!-- For socket io client -->
-            <script type="text/javascript">
-                var socket = require('socket.io-client')('http://localhost:5000');
-            </script>
+            <link href="./main.css" rel="stylesheet" type="text/css"/>
         </meta>
     </head>
     <body>
         <div id="app">
-            <h1>
-                Welcome to collate-for-me
-            </h1>
-            <button @click="method">
-                ping
-            </button>
-            <h3>
-                pong : {{ count }}
-            </h3>
+            <div class="header">
+            </div>
+            <div class="content">
+                <column>
+                </column>
+                <column>
+                </column>
+                <column>
+                </column>
+                <column>
+                </column>
+                <column>
+                </column>
+                <column>
+                </column>
+            </div>
         </div>
         <script>
-            // You can also require other files to run in this process
+            // For socket io client
+          var socket = require('socket.io-client')('http://localhost:5000');
+
+          // You can also require other files to run in this process
           require('./renderer.js');
+          require('./components/Column.vue');
 
           //For Vue js
           var app = new Vue({
             el: '#app',
-            data: {
-              count: 0,
-              message: 'Hello Vue!'
-            },
-            methods: {
-              method: function () {
-                socket.emit('custom_request', 'request');
-              }
-            }
+            data: {},
+            methods: {}
           });
 
-          //Subscribe 'success: ping' event
+          // Subscribe 'success: ping' event
           socket.on('success: request', function (data) {
-            app._data.count += 1;
-            app._data.message = data;
             console.log(data);
           });
         </script>

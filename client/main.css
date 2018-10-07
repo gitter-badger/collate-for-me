@@ -1,0 +1,22 @@
+.header {
+    margin: 8px;
+    width: 100%;
+    padding: 8px;
+    height: 64px;
+    background-color: orange;
+}
+
+.content {
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.content .column {
+    margin: 8px;    
+    padding: 8px;
+    height: 100vh;
+    min-width: 350px;
+    background-color: pink;
+}
