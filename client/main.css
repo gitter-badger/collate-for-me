@@ -16,7 +16,8 @@
 .content .column {
     margin: 8px;    
     padding: 8px;
-    height: 100vh;
-    min-width: 350px;
+    height: 100%;
+    width: 350px;
+    min-height: 100vh;
     background-color: pink;
 }

@@ -3,5 +3,5 @@ Vue.component('Card', {
         return {}
     },
     props: ['post'],
-    template: "<div class='card'><h3>{{ post.title }}</h3></div>"
+    template: "<div class='card'><h3>{{ post.text }}</h3></div>"
 });

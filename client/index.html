@@ -16,7 +16,7 @@
             <div class="header">
             </div>
             <div class="content">
-                <column>
+                <column :posts="twitter">
                 </column>
             </div>
         </div>
@@ -40,7 +40,8 @@
 
           // Subscribe 'success: ping' event
           socket.on('success: request', function (data) {
-            app.data.twitter = data;
+            console.log('data: ', data);
+            app.twitter = data.statuses;
           });
         </script>
     </body>
