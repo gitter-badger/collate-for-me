@@ -18,16 +18,6 @@
             <div class="content">
                 <column>
                 </column>
-                <column>
-                </column>
-                <column>
-                </column>
-                <column>
-                </column>
-                <column>
-                </column>
-                <column>
-                </column>
             </div>
         </div>
         <script>
@@ -36,18 +26,21 @@
 
           // You can also require other files to run in this process
           require('./renderer.js');
+          require('./components/Card.vue');
           require('./components/Column.vue');
 
-          //For Vue js
+          // Vue instance
           var app = new Vue({
             el: '#app',
-            data: {},
+            data: {
+              twitter: {}
+            },
             methods: {}
           });
 
           // Subscribe 'success: ping' event
           socket.on('success: request', function (data) {
-            console.log(data);
+            app.data.twitter = data;
           });
         </script>
     </body>

@@ -1,17 +1,22 @@
-// Server Side
-var app = require('http').createServer();
-var io = require('socket.io')(app);
+var config = require('dotenv').config();
 
 var Datastore = require('nedb');
-var users = new Datastore({
-    filename: 'database/users.db',
+var DbUser = new Datastore({
+    filename: 'database/DbUser.db',
+    autoload: true
+});
+var DbTwitter = new Datastore({
+    filename: 'database/DbTwitter.db',
     autoload: true
 });
 
+var Twitter = require('twitter');
+var app = require('http').createServer();
+var io = require('socket.io')(app);
 app.listen(5000);
 
 // Web Socket Connection
-io.sockets.on('connection', function(socket) {
+var WebSocket = io.sockets.on('connection', function(socket) {
     // If we recieved a command from a client, print in console 
     socket.on('custom_request', function(data) {
         console.log('request received: ', data);
@@ -22,8 +27,23 @@ io.sockets.on('connection', function(socket) {
             twitter: '@ScottWRobinson'
         };
 
-        users.insert(info, function(err, doc) {});
-
-        socket.emit('success: request', 'response');
+        DbUser.insert(info, function(err, doc) {
+            socket.emit('success: request', 'response');
+        });
     });
+});
+
+var client = new Twitter({
+    consumer_key: process.env.TWITTER_API_KEY,
+    consumer_secret: process.env.TWITTER_API_SECRET,
+    access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
+    access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
+});
+
+client.get('search/tweets.json?q=nasa', function(error, statuses, response) {
+    if (!error) {
+        DbTwitter.insert(statuses, function(err, doc) {
+            WebSocket.emit('success: request', statuses);
+        });
+    }
 });
