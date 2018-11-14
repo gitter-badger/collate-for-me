@@ -1,12 +1,12 @@
 {
-  "name": "collate-for-me",
+  "name": "web-trails",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/collate-for-me",
+  "repository": "https://github.com/electron/web-trails",
   "keywords": [
     "Electron",
     "quick",

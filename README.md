@@ -1,13 +1,13 @@
-![Join the chat at https://gitter.im/collate-for-me/Lobby][gitter] ![Dependencies][dependencies] ![Build][build] ![Coverage][coverage] ![Contributors][contributors] ![LICENCE][licence]
+![Join the chat at https://gitter.im/web-trails/Lobby][gitter] ![Dependencies][dependencies] ![Build][build] ![Coverage][coverage] ![Contributors][contributors] ![LICENCE][licence]
 
-<h1 align="center" style="border-bottom: none;">collate-for-me 👩‍💻👨‍💻</h1> 
+<h1 align="center" style="border-bottom: none;">web-trails 👩‍💻👨‍💻</h1> 
 <h3 align="center">Content Consumption Simplified</h3>
 
 <p align="center">
  <img src="https://media.giphy.com/media/3oKIPqXWNJswXf1InS/giphy.gif" width="500" height="400"/>
 </p>
 
-`collate-for-me` is a platform where humans _(and bots)_  from all branches of software development join hands to build a dashboard of your  choice, served on your computer and is not influenced by the _marketting algorithms_ of big tech corporates. 
+`web-trails` is a platform where humans _(and bots)_  from all branches of software development join hands to build a dashboard of your  choice, served on your computer and is not influenced by the _marketting algorithms_ of big tech corporates. 
 
 ### Application Goals
 - Efficient content consumption of www
@@ -53,10 +53,10 @@ We value supportive and constructive dialogue in the pursuit of great code and c
 
 ```bash
 # Clone this repository
-git clone https://github.com/mehtankush/collate-for-me.git
+git clone https://github.com/mehtankush/web-trails.git
 
 # Go into the repository
-cd collate-for-me
+cd web-trails
 
 # Install dependencies & Run the app
 npm install
@@ -104,7 +104,7 @@ Contributors will move issues along the project board as they progress.
 </p>
 
 <!-- Shields -->
-[gitter]: https://badges.gitter.im/collate-for-me/Lobby.svg
+[gitter]: https://badges.gitter.im/web-trails/Lobby.svg
 [dependencies]: https://img.shields.io/badge/dependencies-up%20to%20date-green.svg
 [build]: https://img.shields.io/badge/build-unknown-lightgrey.svg
 [coverage]: https://img.shields.io/badge/coverage-not%20found-lightgrey.svg
@@ -114,7 +114,7 @@ Contributors will move issues along the project board as they progress.
 <!-- Links -->
 [preview]: https://asciinema.org/a/41811.png
 [preview-vid]: (https://asciinema.org/a/41811?autoplay=1) 
-[projects]: https://github.com/mehtankush/collate-for-me/projects
+[projects]: https://github.com/mehtankush/web-trails/projects
 
 <!-- Contributors -->
 [ankushmehta]: https://ankushmehta.com
@@ -123,4 +123,4 @@ Contributors will move issues along the project board as they progress.
 
 <!-- Licence -->
 [gplv3]: https://www.gnu.org/licenses/rms-why-gplv3.html
-[licence-file]: https://github.com/mehtankush/collate-for-me/blob/master/LICENSE
+[licence-file]: https://github.com/mehtankush/web-trails/blob/master/LICENSE

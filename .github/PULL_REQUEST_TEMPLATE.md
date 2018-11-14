@@ -1,5 +1,5 @@
 A similar PR may already be submitted!
-Please search among the [Pull request](https://github.com/mehtankush/collate-for-me/pulls) before creating one.
+Please search among the [Pull request](https://github.com/mehtankush/web-trails/pulls) before creating one.
 
 Thanks for submitting a pull request! Please provide enough information so that others can review your pull request:
 

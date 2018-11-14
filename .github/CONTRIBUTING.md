@@ -55,13 +55,13 @@ We are working on a better way to handle internationalization but don’t hesita
 
 The documentation always needs improvements in order to be more useful to newcomers. If you want to give some help, meet us on [the dedicated sub-folder][docs]!
 
-[chat-link]: https://gitter.im/collate-for-me/Lobby
-[bug-tracker]: https://github.com/mehtankush/collate-for-me/issues
-[new-ticket]: https://github.com/mehtankush/collate-for-me/issues/new
+[chat-link]: https://gitter.im/web-trails/Lobby
+[bug-tracker]: https://github.com/mehtankush/web-trails/issues
+[new-ticket]: https://github.com/mehtankush/web-trails/issues/new
 [fork-repo]: https://help.github.com/articles/fork-a-repo/
 [create-branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
-[ticket-14]: (https://github.com/mehtankush/collate-for-me/issues/14)
+[ticket-14]: (https://github.com/mehtankush/web-trails/issues/14)
 [pull-request]: https://help.github.com/articles/using-pull-requests/
-[good-first-issue]: https://github.com/mehtankush/collate-for-me/issues?q=label%3A%22good+first+issue+%3Ababy%3A%22
-[help-wanted]: https://github.com/mehtankush/collate-for-me/issues?q=label%3A%22help+wanted+%3Aoctocat%3A%22
-[docs]: https://github.com/mehtankush/collate-for-me/tree/master/docs
+[good-first-issue]: https://github.com/mehtankush/web-trails/issues?q=label%3A%22good+first+issue+%3Ababy%3A%22
+[help-wanted]: https://github.com/mehtankush/web-trails/issues?q=label%3A%22help+wanted+%3Aoctocat%3A%22
+[docs]: https://github.com/mehtankush/web-trails/tree/master/docs
