@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <title>
+                Collate
+            </title>
+            <!-- For Vue JS (using production version) -->
+            <script src="../node_modules/vue/dist/vue.js">
+            </script>
+            <link href="./main.css" rel="stylesheet" type="text/css"/>
+        </meta>
+    </head>
+    <body>
+        <div id="app">
+            <div class="header">
+            </div>
+            <div class="content">
+                <column :posts="twitter">
+                </column>
+            </div>
+        </div>
+        <script>
+            // For socket io client
+          var socket = require('socket.io-client')('http://localhost:5000');
+
+          // You can also require other files to run in this process
+          require('./renderer.js');
+          require('./components/Card.vue');
+          require('./components/Column.vue');
+
+          // Vue instance
+          var app = new Vue({
+            el: '#app',
+            data: {
+              twitter: {}
+            },
+            methods: {}
+          });
+
+          // Subscribe 'success: ping' event
+          socket.on('success: request', function (data) {
+            console.log('data: ', data);
+            app.twitter = data.statuses;
+          });
+        </script>
+    </body>
+</html>

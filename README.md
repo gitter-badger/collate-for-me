@@ -10,9 +10,6 @@
 `web-trails` is a platform where humans _(and bots)_  from all branches of software development join hands to build a dashboard of your  choice, served on your computer and is not influenced by the _marketting algorithms_ of big tech corporates. 
 
 ### Application Goals
-
-[![Join the chat at https://gitter.im/web-trails/Lobby](https://badges.gitter.im/web-trails/Lobby.svg)](https://gitter.im/web-trails/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 - Efficient content consumption of www
 - Content is based on user's choice and is not manipulated for profits
 - No brainer installation and workflows
