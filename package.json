@@ -1,29 +1,21 @@
 {
-  "name": "web-trails",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "repository": "https://github.com/electron/web-trails",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "devDependencies": {
-    "electron": "^2.0.0"
-  },
-  "dependencies": {
-    "dotenv": "^6.0.0",
-    "nedb": "^1.8.0",
-    "socket.io": "^2.1.1",
-    "socket.io-client": "^2.1.1",
-    "twitter": "^1.7.1",
-    "vue": "^2.5.16"
-  }
+    "name": "web-trails",
+    "version": "1.0.0",
+    "description": "A minimal application built with VueJS",
+    "main": "node server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": "https://github.com/electron/web-trails",
+    "keywords": [],
+    "author": "GitHub",
+    "devDependencies": {},
+    "dependencies": {
+        "dotenv": "^6.0.0",
+        "nedb": "^1.8.0",
+        "socket.io": "^2.1.1",
+        "socket.io-client": "^2.1.1",
+        "twitter": "^1.7.1",
+        "vue": "^2.5.16"
+    }
 }
